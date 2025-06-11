@@ -1,0 +1,36 @@
+2025-06-11 21:31:37,961 - INFO - Models serialized successfully.
+2025-06-11 21:31:38,055 - INFO - Model performance on test set - MAE: 851.73, MSE: 3390005.11, R²: 0.96
+2025-06-11 21:31:38,283 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.104:5000
+2025-06-11 21:31:38,283 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-11 21:31:38,305 - INFO -  * Restarting with stat
+2025-06-11 21:31:44,730 - INFO - Models serialized successfully.
+2025-06-11 21:31:44,798 - INFO - Model performance on test set - MAE: 851.73, MSE: 3390005.11, R²: 0.96
+2025-06-11 21:31:44,819 - WARNING -  * Debugger is active!
+2025-06-11 21:31:44,829 - INFO -  * Debugger PIN: 781-484-723
+2025-06-11 21:46:22,305 - INFO - Prediction request received for features: {'Prev_Year_Yield': 0.5, 'Crop_Sugar cane': 1, 'Years_Since_2000': 20, 'Precipitation': 0.3, 'Water_Availability': 0.1, 'NDVI_Solar_Interaction': 0.15, 'Temperature': 0.4, 'NDVI': 0.45, 'SolarRadiation': 0.35, 'Prev_Year_NDVI': 0.4}, Result: 38134.0537049378
+2025-06-11 21:46:22,305 - INFO - 127.0.0.1 - - [11/Jun/2025 21:46:22] "POST /predict HTTP/1.1" 200 -
+2025-06-11 21:54:19,146 - INFO - Prediction request received for features: {'Prev_Year_Yield': 0.5, 'Crop_Sugar cane': 1, 'Years_Since_2000': 20, 'Precipitation': 0.2, 'Water_Availability': 0.1, 'NDVI_Solar_Interaction': 0.15, 'Temperature': 0.8, 'NDVI': 0.45, 'SolarRadiation': 0.5, 'Prev_Year_NDVI': 0.4}, Result: 38456.69221968482
+2025-06-11 21:54:19,146 - INFO - 127.0.0.1 - - [11/Jun/2025 21:54:19] "POST /predict HTTP/1.1" 200 -
+2025-06-11 21:54:54,511 - INFO - Prediction request received for features: {'Prev_Year_Yield': 0.5, 'Crop_Sugar cane': 1, 'Years_Since_2000': 20, 'Precipitation': 0.8, 'Water_Availability': 0.6, 'NDVI_Solar_Interaction': 0.15, 'Temperature': 0.3, 'NDVI': 0.45, 'SolarRadiation': 0.2, 'Prev_Year_NDVI': 0.4}, Result: 40005.629676043056
+2025-06-11 21:54:54,511 - INFO - 127.0.0.1 - - [11/Jun/2025 21:54:54] "POST /predict HTTP/1.1" 200 -
+2025-06-11 21:56:03,952 - INFO - Prediction request received for features: {'Prev_Year_Yield': 0.5, 'Crop_Sugar cane': 1, 'Years_Since_2000': 20, 'Precipitation': 0.1, 'Water_Availability': 0.1, 'NDVI_Solar_Interaction': 0.15, 'Temperature': 0.9, 'NDVI': 0.2, 'SolarRadiation': 0.7, 'Prev_Year_NDVI': 0.2}, Result: 40912.11474214656
+2025-06-11 21:56:03,952 - INFO - 127.0.0.1 - - [11/Jun/2025 21:56:03] "POST /predict HTTP/1.1" 200 -
+2025-06-11 21:56:26,633 - INFO - Prediction request received for features: {'Prev_Year_Yield': 0.5, 'Crop_Sugar cane': 1, 'Years_Since_2000': 20, 'Precipitation': 0.0, 'Water_Availability': 0.1, 'NDVI_Solar_Interaction': 0.15, 'Temperature': 0.9, 'NDVI': 0.0, 'SolarRadiation': 0.7, 'Prev_Year_NDVI': 0.2}, Result: 41556.738290411864
+2025-06-11 21:56:26,644 - INFO - 127.0.0.1 - - [11/Jun/2025 21:56:26] "POST /predict HTTP/1.1" 200 -
+2025-06-11 21:56:31,607 - INFO - Prediction request received for features: {'Prev_Year_Yield': 0.5, 'Crop_Sugar cane': 1, 'Years_Since_2000': 20, 'Precipitation': 0.0, 'Water_Availability': 0.1, 'NDVI_Solar_Interaction': 0.15, 'Temperature': 0.9, 'NDVI': 0.0, 'SolarRadiation': 0.7, 'Prev_Year_NDVI': 0.2}, Result: 41556.738290411864
+2025-06-11 21:56:31,607 - INFO - 127.0.0.1 - - [11/Jun/2025 21:56:31] "POST /predict HTTP/1.1" 200 -
+2025-06-11 21:57:11,141 - INFO - Prediction request received for features: {'Prev_Year_Yield': 0.2, 'Crop_Sugar cane': 1, 'Years_Since_2000': 20, 'Precipitation': 0.0, 'Water_Availability': 0.1, 'NDVI_Solar_Interaction': 0.5, 'Temperature': 0.9, 'NDVI': 0.0, 'SolarRadiation': 0.7, 'Prev_Year_NDVI': 0.2}, Result: 25918.773924528577
+2025-06-11 21:57:11,141 - INFO - 127.0.0.1 - - [11/Jun/2025 21:57:11] "POST /predict HTTP/1.1" 200 -
+2025-06-11 21:57:19,947 - INFO - Prediction request received for features: {'Prev_Year_Yield': 0.8, 'Crop_Sugar cane': 1, 'Years_Since_2000': 20, 'Precipitation': 0.0, 'Water_Availability': 0.1, 'NDVI_Solar_Interaction': 0.5, 'Temperature': 0.9, 'NDVI': 0.0, 'SolarRadiation': 0.7, 'Prev_Year_NDVI': 0.2}, Result: 47369.49845352408
+2025-06-11 21:57:19,960 - INFO - 127.0.0.1 - - [11/Jun/2025 21:57:19] "POST /predict HTTP/1.1" 200 -
+2025-06-11 21:57:42,991 - INFO - Prediction request received for features: {'Prev_Year_Yield': 0.5, 'Crop_Sugar cane': 1, 'Years_Since_2000': 20, 'Precipitation': 0.3, 'Water_Availability': 0.1, 'NDVI_Solar_Interaction': 0.15, 'Temperature': 0.4, 'NDVI': 0.45, 'SolarRadiation': 0.35, 'Prev_Year_NDVI': 0.4}, Result: 38134.0537049378
+2025-06-11 21:57:42,991 - INFO - 127.0.0.1 - - [11/Jun/2025 21:57:42] "POST /predict HTTP/1.1" 200 -
+2025-06-11 21:58:17,648 - INFO -  * Detected change in 'c:\\Users\\Natan\\Desktop\\FTL_ML\\FTL_capstone_project\\Crop_Yield_Prediction\\deployment.py', reloading
+2025-06-11 21:58:17,967 - INFO -  * Restarting with stat
+2025-06-11 21:58:23,633 - INFO - Models serialized successfully.
+2025-06-11 21:58:23,693 - INFO - Model performance on test set - MAE: 851.73, MSE: 3390005.11, R²: 0.96
+2025-06-11 21:58:23,725 - WARNING -  * Debugger is active!
+2025-06-11 21:58:23,725 - INFO -  * Debugger PIN: 781-484-723

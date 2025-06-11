@@ -1,0 +1,28 @@
+
+
+POST http://localhost:5000/predict
+Authorization: username: admin, password: password123
+Content-Type: application/json
+
+{
+    "features": {
+        "Prev_Year_Yield": 0.5,
+        "Crop_Sugar cane": 1,
+        "Years_Since_2000": 20,
+        "Precipitation": 0.3,
+        "Water_Availability": 0.1,
+        "NDVI_Solar_Interaction": 0.15,
+        "Temperature": 0.4,
+        "NDVI": 0.45,
+        "SolarRadiation": 0.35,
+        "Prev_Year_NDVI": 0.4
+    }
+}
+
+
+
+
+{
+    "prediction": 38134.0537049378,
+    "unit": "kg/ha"
+}
